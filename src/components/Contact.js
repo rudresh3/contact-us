@@ -33,10 +33,9 @@ const Contact = () => {
                 <div className="holder">
                     <label>Name</label>
                     <input 
-                        placeholder="Name" 
-                        value={name} 
-                        onChange={(e)=> setName(e.target.
-                        value)}
+                    placeholder="Name" 
+                    value={name} 
+                    onChange={(e)=> setName(e.target.value)}
                     />
                     
                 </div>
@@ -44,8 +43,7 @@ const Contact = () => {
                     <label>Email</label>
                     <input 
                     placeholder="Email"
-                    value={email} onChange={(e)=> setEmail(e.target.
-                    value)}
+                    value={email} onChange={(e)=> setEmail(e.target.value)}
                     />
                 </div>
                 <div className="holder">
